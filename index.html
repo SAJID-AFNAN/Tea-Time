@@ -27,8 +27,8 @@
 </head>
 
 <body>
-    <main class="max-h-screen mx-auto px-16 lg:px-28">
-        <header class="flex justify-center items-center gap-6">
+    <main class="max-h-screen mx-auto px-8 lg:px-28">
+        <header class="flex flex-col-reverse md:flex-row justify-center items-center gap-6">
             <!-- text part -->
             <div>
                 <h1 class="text-5xl md:text-7xl font-bold">It's good <br>
@@ -40,29 +40,29 @@
                     More <i class="fa-solid fa-arrow-right -rotate-45"></i></button>
             </div>
             <!-- image part -->
-            <div class="relative top-5">
+            <div class="relative md:top-5">
                 <!-- Image -->
                 <div>
                     <img class="w-full" src="./images/banner.png" alt=""><img src="" alt="">
                 </div>
                 <!-- Card -->
                 <div
-                    class="flex gap-3 items-center bg-white rounded-xl shadow-md border px-6 py-4 w-max absolute top-96 left-20">
+                    class="flex gap-3 items-center bg-white rounded-xl shadow-md border md:px-6 md:py-4 px-3 py-2 w-max absolute md:top-96 md:left-20 top-44">
                     <!-- icon -->
-                    <div><i class="fa-solid fa-star text-[#FFC850] text-4xl"></i></div>
+                    <div><i class="fa-solid fa-star text-[#FFC850] text-2xl md:text-4xl"></i></div>
                     <div>
-                        <p class="text-3xl font-bold">5.00</p>
-                        <p class="text-lg text-[#777777]">Trust Pilot Ratings</p>
+                        <p class="text-2xl md:text-3xl font-bold">5.00</p>
+                        <p class="text-sm md:text-lg text-[#777777]">Trust Pilot Ratings</p>
                     </div>
                 </div>
             </div>
         </header>
 
         <!-- Featured Products Section -->
-        <section class="py-32">
+        <section class="py-16 md:py-32">
             <!-- title -->
             <div class="text-center">
-                <h1 class="text-4xl font-bold mb-5">Our Featured Products</h1>
+                <h1 class="md:text-4xl font-bold mb-5">Our Featured Products</h1>
                 <p class="text-lg text-[#777777] mb-12">There are many variations of passages of Lorem Ipsum available,
                     but the majority have suffered
                     alteration in some form,<br> by injected humour, or randomised words which don't look even slightly
@@ -92,6 +92,10 @@
                 </div>
             </div>
         </section>
+
+            <!-- Presenting section -->
+            <section>
+            </section>
     </main>
 
 </body>
