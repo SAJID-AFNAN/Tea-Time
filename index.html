@@ -19,14 +19,17 @@
                 extend: {
                     colors: {
                         clifford: '#da373d',
-                    }
+                    },
+                    fontFamily: {
+                        manrope: ["Manrope", 'serif'],
+                    },
                 }
             }
         }
     </script>
 </head>
 
-<body>
+<body class="font-manrope">
     <main class="max-w-screen mx-auto px-8 lg:px-28">
         <header class="flex flex-col-reverse md:flex-row justify-center items-center gap-6">
             <!-- text part -->
@@ -293,7 +296,8 @@
                 <div>
                     <h4 class="text-xl font-semibold mb-8">Subscribe to our <br> newsletter</h4>
                     <input class="bg-transparent border-b-2 border-black py-3" type="text" placeholder="Email Address">
-                    <i class="fa-sharp fa-solid fa-chevron-right bg-orange-600 rounded-full h-7 w-7 inline-flex justify-center items-center text-white"></i>
+                    <i
+                        class="fa-sharp fa-solid fa-chevron-right bg-orange-600 rounded-full h-7 w-7 inline-flex justify-center items-center text-white"></i>
                     <div class="mt-8 space-x-4">
                         <i class="fa-brands fa-facebook-f text-lg"></i>
                         <i class="fa-brands fa-twitter text-lg"></i>
@@ -303,9 +307,9 @@
             </div>
 
             <!-- CopyRight -->
-             <div>
+            <div>
                 <p class="text-center text-[#777777] mt-14">© 2027 UIDesign.to - All rights reserved.</p>
-             </div>
+            </div>
         </div>
     </footer>
 
